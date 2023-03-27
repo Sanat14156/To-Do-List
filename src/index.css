@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#root{
+  display: flex;
+  /* padding-top: 20vh; */
+    justify-content: center;
+    align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(237, 248, 248);
+}
+h1{
+  margin: 15px 0px;
+}
+.main-container{
+  background-color: bisque;
+  text-align: center;
+  height: 50vh;
+  /* width: 60vw; */
+  overflow: hidden;
+  box-shadow: 5px 5px 10px 10px black;
+  border-radius: 10px;
+}
+.list{
+  margin-top: 10px;
+  width: 100%;
+  /* overflow: scroll; */
+}
+.sub-main{
+  line-height: 30px;
+  text-align: left;
+}
+.form{
+  padding: 5px 10px;
+  display: flex;
+  gap: 20px;
+}
+.form>input{
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+button{
+  border-radius: 10px;
+  padding: 3px 5px;
+}
+button:hover{
+  box-shadow: 2px 2px 5px 5px black;
+}
+.main-task{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+.main-task>div{
+  display: flex;
+  gap: 10px;
+}
+.sub-tasks{
+  padding: 5px 20px;
+}
+.sub-tasks li{
+display: flex;
+justify-content: space-between;
+padding: 5px 0px;
+}
+.sub-tasks li div{
+  display: flex;
+  gap: 10px;
+}
+.close:hover{
+  background-color: red;
+  color: white;
+  padding: 0px 5px;
+
+}
+.add:hover{
+  background-color: green;
+  color: white;
+
+}
+.edit:hover{
+background-color: rgb(250, 250, 85);
+color: rgb(1, 19, 101);
+
+}
